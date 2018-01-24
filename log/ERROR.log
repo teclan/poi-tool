@@ -1,0 +1,107 @@
+2018 -01-15 11:04 :21 [ERROR] - poi.lx.utils.ExcelUtils -ExcelUtils.java(592) -不是成都理想设备编号： 800001004
+ 2018 -01-15 11:04 :21 [ERROR] - poi.lx.utils.ExcelUtils -ExcelUtils.java(592) -不是成都理想设备编号： 800001005
+ 2018 -01-15 11:04 :22 [ERROR] - poi.lx.utils.ExcelUtils -ExcelUtils.java(592) -不是成都理想设备编号： 800001008
+ 2018 -01-15 11:04 :22 [ERROR] - poi.lx.utils.ExcelUtils -ExcelUtils.java(592) -不是成都理想设备编号： 800001007
+ 2018 -01-15 11:04 :22 [ERROR] - poi.lx.utils.ExcelUtils -ExcelUtils.java(592) -不是成都理想设备编号： 800001010
+ 2018 -01-15 11:04 :22 [ERROR] - poi.lx.utils.ExcelUtils -ExcelUtils.java(592) -不是成都理想设备编号： '000114
+ 2018 -01-15 11:04 :26 [ERROR] - poi.lx.utils.ExcelUtils -ExcelUtils.java(592) -不是成都理想设备编号： 800002111
+ 2018 -01-15 11:04 :26 [ERROR] - poi.lx.utils.ExcelUtils -ExcelUtils.java(592) -不是成都理想设备编号： 0000468
+ 2018 -01-15 11:04 :26 [ERROR] - poi.lx.utils.ExcelUtils -ExcelUtils.java(592) -不是成都理想设备编号： 0000469
+ 2018 -01-15 11:04 :26 [ERROR] - poi.lx.utils.ExcelUtils -ExcelUtils.java(592) -不是成都理想设备编号： 0000436
+ 2018 -01-15 11:04 :27 [ERROR] - poi.lx.utils.ExcelUtils -ExcelUtils.java(592) -不是成都理想设备编号： 000391（用户已退网）
+ 2018 -01-15 11:04 :29 [ERROR] - poi.lx.utils.ExcelUtils -ExcelUtils.java(195) -com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '800020262' for key 'PRIMARY', query: insert into imm_devinfo  (devId,pnlActID,devType,pnlAddr,devlat,fMemo,platformId,devName,define5,manufacturer,areaId,devInstDate,instMan,devModelId,devLng,instUnit) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) , params: 800020262, 800020262, 10, , 38.03, , 0311, 天滋宝贝幼儿园, 13010200001180000467, P2P_NPC, 11603151556177428, 2018-01-01, , 900000001, 114.26, 
+ org.javalite.activejdbc.DBException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '800020262' for key 'PRIMARY', query: insert into imm_devinfo  (devId,pnlActID,devType,pnlAddr,devlat,fMemo,platformId,devName,define5,manufacturer,areaId,devInstDate,instMan,devModelId,devLng,instUnit) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) , params: 800020262, 800020262, 10, , 38.03, , 0311, 天滋宝贝幼儿园, 13010200001180000467, P2P_NPC, 11603151556177428, 2018-01-01, , 900000001, 114.26, 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:935)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2079)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2013)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5104)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1998)
+	at org.javalite.activejdbc.DB.exec(DB.java:565)
+	at poi.lx.utils.ExcelUtils.analyzeNOArch(ExcelUtils.java:190)
+	at poi.lx.main.Main.main(Main.java:31)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '800020262' for key 'PRIMARY'
+	... 20 more
+2018 -01-15 11:04 :29 [ERROR] - poi.lx.utils.ExcelUtils -ExcelUtils.java(215) -com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '800020262-umksvpbrfyk4' for key 'PRIMARY', query: insert into imm_netnvrattr  (devId,devLoginName,devTUTKID,videoServer,devLoginPwd) values (?,?,?,?,?) , params: 800020262, admin, umksvpbrfyk4, 10.26.40.84, 8833403428
+ org.javalite.activejdbc.DBException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '800020262-umksvpbrfyk4' for key 'PRIMARY', query: insert into imm_netnvrattr  (devId,devLoginName,devTUTKID,videoServer,devLoginPwd) values (?,?,?,?,?) , params: 800020262, admin, umksvpbrfyk4, 10.26.40.84, 8833403428
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:935)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2079)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2013)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5104)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1998)
+	at org.javalite.activejdbc.DB.exec(DB.java:565)
+	at poi.lx.utils.ExcelUtils.analyzeNOArch(ExcelUtils.java:209)
+	at poi.lx.main.Main.main(Main.java:31)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '800020262-umksvpbrfyk4' for key 'PRIMARY'
+	... 20 more
+2018 -01-15 11:04 :29 [ERROR] - poi.lx.utils.ExcelUtils -ExcelUtils.java(195) -com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '800020270' for key 'PRIMARY', query: insert into imm_devinfo  (devId,pnlActID,devType,pnlAddr,devlat,fMemo,platformId,devName,define5,manufacturer,areaId,devInstDate,instMan,devModelId,devLng,instUnit) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) , params: 800020270, 800020270, 10, , 38.03, , 0311, 潜能开发第六幼儿园, 13010200001180000468, P2P_NPC, 11603151556177428, 2018-01-01, , 900000001, 114.26, 
+ org.javalite.activejdbc.DBException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '800020270' for key 'PRIMARY', query: insert into imm_devinfo  (devId,pnlActID,devType,pnlAddr,devlat,fMemo,platformId,devName,define5,manufacturer,areaId,devInstDate,instMan,devModelId,devLng,instUnit) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) , params: 800020270, 800020270, 10, , 38.03, , 0311, 潜能开发第六幼儿园, 13010200001180000468, P2P_NPC, 11603151556177428, 2018-01-01, , 900000001, 114.26, 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:935)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2079)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2013)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5104)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1998)
+	at org.javalite.activejdbc.DB.exec(DB.java:565)
+	at poi.lx.utils.ExcelUtils.analyzeNOArch(ExcelUtils.java:190)
+	at poi.lx.main.Main.main(Main.java:31)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '800020270' for key 'PRIMARY'
+	... 20 more
+2018 -01-15 11:04 :29 [ERROR] - poi.lx.utils.ExcelUtils -ExcelUtils.java(215) -com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '800020270-umksg8snfcuy' for key 'PRIMARY', query: insert into imm_netnvrattr  (devId,devLoginName,devTUTKID,videoServer,devLoginPwd) values (?,?,?,?,?) , params: 800020270, admin, umksg8snfcuy, 10.26.40.84, 4803731428
+ org.javalite.activejdbc.DBException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '800020270-umksg8snfcuy' for key 'PRIMARY', query: insert into imm_netnvrattr  (devId,devLoginName,devTUTKID,videoServer,devLoginPwd) values (?,?,?,?,?) , params: 800020270, admin, umksg8snfcuy, 10.26.40.84, 4803731428
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:935)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2079)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2013)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5104)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1998)
+	at org.javalite.activejdbc.DB.exec(DB.java:565)
+	at poi.lx.utils.ExcelUtils.analyzeNOArch(ExcelUtils.java:209)
+	at poi.lx.main.Main.main(Main.java:31)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '800020270-umksg8snfcuy' for key 'PRIMARY'
+	... 20 more
